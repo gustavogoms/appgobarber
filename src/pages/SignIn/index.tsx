@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
+/* eslint-disable @typescript-eslint/ban-types */
+/* eslint-disable react-hooks/rules-of-hooks */
 import React, { useCallback, useRef } from 'react';
 import {
   Image,

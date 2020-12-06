@@ -12,17 +12,15 @@ export const Container = styled.View<ContainerProps>`
   background: #232129;
   border-radius: 10px;
   margin-bottom: 8px;
-  border-width: 2px ;
-  border-color: #232129
-
-  flex-direction: row;
+  border-width: 2px;
+  border-color: #232129 flex-direction row;
   align-items: center;
 
-${props =>
-  props.isFocused &&
-  css`
-    border-color: #ff9000;
-  `}
+  ${props =>
+    props.isFocused &&
+    css`
+      border-color: #ff9000;
+    `}
 `;
 
 export const TextInput = styled.TextInput`
